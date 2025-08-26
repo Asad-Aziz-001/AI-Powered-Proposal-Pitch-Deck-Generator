@@ -131,7 +131,7 @@ export default function CreatePage() {
                 {currentTemplates.map((template) => (
                   <div
                     key={template.id}
-                    className={`relative cursor-pointer rounded-lg border-2 p-4 transition-all hover:shadow-md ${
+                    className={`relative cursor-pointer rounded-lg border-2 p-4 transition-all hover:shadow-md border-slate-950 ${
                       selectedTemplate === template.id
                         ? "border-primary bg-primary/5"
                         : "border-border hover:border-primary/50"
