@@ -56,7 +56,7 @@ export default function RegisterPage() {
         <div className="w-full max-w-md">
           <div className="flex items-center justify-center gap-2 mb-8">
             <Sparkles className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-heading font-bold text-foreground">ProposalAI</h1>
+            <h1 className="text-2xl font-heading font-bold text-foreground">AI Proposal & Pitch Deck Generator</h1>
           </div>
           <Card className="border-border">
             <CardHeader className="text-center">
@@ -82,7 +82,7 @@ export default function RegisterPage() {
         {/* Logo */}
         <div className="flex items-center justify-center gap-2 mb-8">
           <Sparkles className="h-8 w-8 text-primary" />
-          <h1 className="text-2xl font-heading font-bold text-foreground">ProposalAI</h1>
+          <h1 className="text-2xl font-heading font-bold text-foreground">AI Proposal & Pitch Deck Generator</h1>
         </div>
 
         <Card className="border-border">

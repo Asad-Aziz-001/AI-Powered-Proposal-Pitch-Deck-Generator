@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "ProposalAI - AI-Powered Business Proposals & Pitch Decks",
+  title: "AI Proposal & Pitch Deck Generator - Professional Business Documents",
   description:
     "Generate professional business proposals and investor pitch decks automatically using AI. Perfect for freelancers, startups, and small businesses.",
   generator: "v0.app",

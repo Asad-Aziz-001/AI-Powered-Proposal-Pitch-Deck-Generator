@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Sparkles className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-heading font-bold text-foreground">ProposalAI</h1>
+            <h1 className="text-2xl font-heading font-bold text-foreground">AI Proposal & Pitch Deck Generator</h1>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -115,7 +115,8 @@ export default function HomePage() {
             Ready to Transform Your Business Documents?
           </h2>
           <p className="text-xl mb-8 text-black">
-            Join thousands of entrepreneurs who trust ProposalAI to create winning proposals and pitch decks.
+            Join thousands of entrepreneurs who trust AI Proposal & Pitch Deck Generator to create winning proposals and
+            pitch decks.
           </p>
           <Button size="lg" className="text-lg px-8" asChild>
             <Link href="/register">
@@ -131,9 +132,9 @@ export default function HomePage() {
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Sparkles className="h-6 w-6 text-primary" />
-            <span className="text-xl font-heading font-bold">ProposalAI</span>
+            <span className="text-xl font-heading font-bold">AI Proposal & Pitch Deck Generator</span>
           </div>
-          <p className="text-sidebar-foreground">© 2025 ProposalAI. All rights reserved.</p>
+          <p className="text-sidebar-foreground">© 2025 AI Proposal & Pitch Deck Generator. All rights reserved.</p>
         </div>
       </footer>
     </div>

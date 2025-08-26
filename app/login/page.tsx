@@ -45,7 +45,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="flex items-center justify-center gap-2 mb-8">
           <Sparkles className="h-8 w-8 text-primary" />
-          <h1 className="text-2xl font-heading font-bold text-foreground">ProposalAI</h1>
+          <h1 className="text-2xl font-heading font-bold text-foreground">AI Proposal & Pitch Deck Generator</h1>
         </div>
 
         <Card className="border-border">
