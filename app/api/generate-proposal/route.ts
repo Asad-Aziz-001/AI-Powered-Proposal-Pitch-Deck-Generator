@@ -44,7 +44,7 @@ Generate a professional business proposal with the following sections:
 Format the response as a structured JSON object with each section as a key containing the content.`
 
     const { text } = await generateText({
-      model: groq("llama-3.1-70b-versatile"),
+      model: groq("llama3-70b-8192"),
       prompt,
       maxTokens: 4000,
     })

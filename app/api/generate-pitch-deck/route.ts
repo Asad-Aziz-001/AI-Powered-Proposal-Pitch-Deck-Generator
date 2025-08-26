@@ -33,7 +33,7 @@ Generate content for a 10-slide pitch deck with the following slides:
 Format the response as a JSON object with each slide as a key containing title and content.`
 
     const { text } = await generateText({
-      model: groq("llama-3.1-70b-versatile"),
+      model: groq("llama3-70b-8192"),
       prompt,
       maxTokens: 3000,
     })
