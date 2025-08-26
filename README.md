@@ -140,7 +140,7 @@ If your implementation differs, update this description to match your code.
 
 ---
 
-## 🗂️ Proposal & Deck Templates (editable)
+## 🗂️ Proposal & Deck Templates
 
 **Proposal sections**
 
@@ -224,6 +224,15 @@ Store these as JSON/TS templates for easy tweaking.
 * [ ] Template marketplace
 
 ---
+## 🔌 API Routes
+
+This project uses Next.js API Routes for backend functionality:
+
+/api/generate - Main endpoint for generating pitch deck content
+
+/api/save - (If implemented) Endpoint for saving generated decks
+
+/api/export - (If implemented) Endpoint for exporting decks to different formats
 
 ## 🤝 Contributing
 
@@ -237,7 +246,7 @@ Store these as JSON/TS templates for easy tweaking.
 
 ## 📄 License
 
-MIT — see `LICENSE` for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
@@ -260,4 +269,18 @@ A: Only if you configure a database. By default, outputs can remain ephemeral.
 * **Issues:** Use GitHub Issues for bugs & feature requests
 * **Security:** Report vulnerabilities via private issue/email
 
+## 🙏 Acknowledgments
+
+OpenAI for providing the powerful GPT API
+
+Vercel for seamless deployment
+
+The Next.js team for the excellent framework
+
+All contributors and users of the application
+
+##  📞 Support
+If you have any questions or need help, please open an issue in the GitHub repository or contact the development team.
+
 > This README was generated based on the live app’s visible pages and a conventional Next.js + Vercel setup. Update specific sections to match your repository’s actual code and configuration.
+
